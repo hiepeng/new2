@@ -1,0 +1,176 @@
+* {margin: 0;
+    padding: 0;}
+.flex{
+    position: sticky;
+    top: 0;
+    
+    
+
+    
+}
+.tieude{
+    background-color: rgb(107, 3, 93);
+    max-width: 1200px;
+    max-height: 50px;
+    margin: 0 auto;
+    color: ivory;
+}
+.dau {
+    background-color: rgb(53, 23, 56);
+    max-width: 1200px;
+    min-height: 50px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    
+     
+  
+
+}
+.container {
+    grid-gap:3px;
+    display: grid;  
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 720px 1000px 1600px 1000px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+
+.trai {
+    grid-column: span 4;
+    background-color: rgb(220, 220, 220);
+        position: sticky;
+        top: 50px;
+        
+    
+}
+.phai {
+    grid-column: span 8;
+    background-attachment: fixed;
+    background-position: initial;
+   
+    
+   
+    
+}
+
+.trai2 {
+    grid-column: span 4;
+    background-color:rgb(220, 220, 220);
+}
+.phai2 {
+    grid-column: span 8;
+    background-color: rgb(220, 220, 220);
+  
+}
+.trai3 {
+    grid-column: span 4;
+    background-color: rgb(220, 220, 220);
+}
+.phai3 {
+    grid-column: span 8;
+    background-color: rgb(220, 220, 220);
+}
+.trai4 {
+    grid-column: span 4;
+    background-color: rgb(220, 220, 220);
+}
+.phai4 {
+    grid-column: span 8;
+    background-color: rgb(220, 220, 220);
+}
+
+
+.dau .item0{
+    flex: 3.5;
+}
+.dau .item1{
+    flex: 2;
+}
+.dau .item2{
+    flex: 2;
+}
+.dau .item3{
+    flex: 2;
+}
+.dau .item4{
+    flex: 1.2;
+}
+
+.flex .dau div a{
+    color: white;
+    font-size: 150%;
+}
+.trai .avata{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.trai .bang{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    color:rgb(0, 0, 0);
+    font-size: 120%;
+    
+}
+
+.trai .banglink{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    font-size: 100%
+}
+/************************************/
+.phaicon4 p{
+    font-size: 200%;
+    margin-top: 1%;
+    margin-left: 5%;
+    color: white; text-shadow: black 0.1em 0.1em 0.9em
+}
+.phaicon3 {
+ 
+    margin-top: 22%;
+    margin-left: 1%;
+    color: white; text-shadow: black 0.1em 0.1em 0.9em
+}
+.phaicon5 {
+ 
+    margin-top: 5%;
+    margin-left: 3%;
+    color: white; text-shadow: black 0.9em 0.9em 0.9em
+}
+
+@keyframes example {
+    0% {left:0px; top:-50px;}
+    25% { left:00px; top:0px;}
+    50% { left:00px; top:-50px;}
+    75% {left:00px; top:0px;}
+    100% { left:0px; top:-50px;}
+  }
+  
+  /* Áp dụng animation vào phần tử */
+  .phaicon3 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .vanban{
+      font-size: 300%;
+      padding-left: 4%;
+      padding-right: 7%;
+  }
+  .thongtin{
+      background-color:  rgb(107, 3, 93);
+      font-size: 300%;
+      color: white;
+
+  }
